@@ -5,105 +5,227 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Boostrap Index</title>
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" />
-    <link rel="stylesheet" href="./assets/style/all.css">
+    <title>CodingHome</title>
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.13.0/css/all.min.css" /> -->
+    <!-- google icons -->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- font awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- coding Home css -->
+    <link rel="stylesheet" href="./assets/style/all.scss">
   </head>
 
   <body>
-    <nav class="navbar navbar-expand-lg navbar-light bg-light">
-      <div class="container-fluid">
-        <a class="navbar-brand" href="#">Navbar</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarSupportedContent">
-          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
-            <li class="nav-item">
-              <a class="nav-link active" aria-current="page" href="#">Home</a>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link" href="#">Link</a>
-            </li>
-            <li class="nav-item dropdown">
-              <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
-                Dropdown
-              </a>
-              <ul class="dropdown-menu" aria-labelledby="navbarDropdown">
-                <li><a class="dropdown-item" href="#">Action</a></li>
-                <li><a class="dropdown-item" href="#">Another action</a></li>
-                <li><hr class="dropdown-divider"></li>
-                <li><a class="dropdown-item" href="#">Something else here</a></li>
+    <header class="bg-theme-2 py-2">
+      <div class="container">
+        <nav class="navbar navbar-expand-lg ">
+          <div class="container-fluid d-flex ">
+            <!-- <a class="navbar-brand" href="#">Navbar</a> -->
+            
+            <h1 class=""><a href="#" class="logo">codingHome</a></h1>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="material-icons text-primary">drag_handle</span>
+            </button>
+            
+            
+            <div class="collapse navbar-collapse justify-content-end" id="navbarNavDropdown">
+              <ul class="navbar-nav body1-2 align-items-center">
+                <li class="nav-item ">
+                  <a class="nav-link py-2 px-sm-4 " aria-current="page" href="#">首頁</a>
+                </li>
+                <li class="nav-item ">
+                  <a class="nav-link py-2 px-sm-4" href="#">課程介紹</a>
+                </li>
+                <li class="nav-item text-center">
+                  <a class="nav-link d-flex align-items-center py-2 ps-sm-4" href="#">
+                    <span class="material-icons me-1">account_circle</span>
+                    <span>登入</span>
+                  </a>
+                </li>
               </ul>
-            </li>
-            <li class="nav-item">
-              <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Disabled</a>
-            </li>
-          </ul>
-          <form class="d-flex">
-            <input class="form-control me-2" type="search" placeholder="Search" aria-label="Search">
-            <button class="btn btn-outline-success" type="submit">Search</button>
-          </form>
-        </div>
+            </div>
+          </div>
+        </nav>
       </div>
-    </nav>
+    </header>
+
+
 
     
-<div class="container">
-  <h1 class="index__h1">這是一段話</h1>
-  <div class="alert alert-primary" role="alert">
-    A simple primary alert—check it out!
-  </div>
-  <div class="alert alert-secondary" role="alert">
-    A simple secondary alert—check it out!
-  </div>
-  <div class="alert alert-success" role="alert">
-    A simple success alert—check it out!
-  </div>
-  <div class="alert alert-danger" role="alert">
-    A simple danger alert—check it out!
-  </div>
-  <div class="alert alert-warning" role="alert">
-    A simple warning alert—check it out!
-  </div>
-  <div class="alert alert-info" role="alert">
-    A simple info alert—check it out!
-  </div>
-  <div class="alert alert-light" role="alert">
-    A simple light alert—check it out!
-  </div>
-  <div class="alert alert-dark" role="alert">
-    A simple dark alert—check it out!
-  </div>
-</div>
-
-<!-- Button trigger modal -->
-<button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModal">
-  Launch demo modal
-</button>
-
-<!-- Modal -->
-<div class="modal fade" id="exampleModal" tabindex="-1" aria-labelledby="exampleModalLabel" aria-hidden="true">
-  <div class="modal-dialog">
-    <div class="modal-content">
-      <div class="modal-header">
-        <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
-        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+<section class="bg-theme-1">
+  <div class="container banner d-flex justify-content-center align-items-center vh-100">
+    <div class="container-lg-6 bg-theme-1">
+      <div class="border border-white text-center position-relative py-5 px-10">
+        <h2 class="h1-2 text-gradient-y">全台最豐富的程式家教</h2>
+        <div class="h1-2 text-white mb-4">在實踐中化理想為現實</div>
+        <div class="body1-5 text-white">全台最專業師資｜到府程式家教｜客製化課程</div>
+        <div class="square position-absolute top-0 start-0 translate-middle"></div>
+        <div class="square position-absolute top-0 start-100 translate-middle"></div>
+        <div class="square position-absolute top-100 start-0 translate-middle"></div>
+        <div class="square position-absolute top-100 start-100 translate-middle"></div>
       </div>
-      <div class="modal-body">
-        ...
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-theme-2">
+  <div class="container">
+    <div class="row d-flex align-items-center py-9">
+      <div class="col-3">
+        <div class="text-white h3-1 mb-2">手把手帶你</div>
+        <div class="text-white h3-1 mb-3">親自到家教到會</div>
+        <div class="line bg-primary"></div>
       </div>
-      <div class="modal-footer">
-        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
-        <button type="button" class="btn btn-primary">Save changes</button>
+      <div class="col-3 text-center feature_hover py-5">
+        <div class="text-white mb-4">
+          <span class="material-icons h1-1 text-gradient-y">code</span>
+        </div>
+        <div class="text-white body1-1 mb-3">超過 100 種專業課程</div>
+        <div class="text-white body1-2">
+          <div class="">學習標準化的電腦形式語言</div>
+          <div class="">培養運算思維和邏輯素養</div>
+        </div>
+      </div>
+      <div class="col-3 text-center feature_hover py-5">
+        <div class="text-white mb-4">
+          <span class="material-icons h1-1 text-gradient-y">rocket_launch</span>
+        </div>
+        <div class="text-white body1-1 mb-3">高效學習</div>
+        <div class="text-white body1-2">
+          <div class="">客製化專屬課表</div>
+          <div class="">讓學習變簡單</div>
+        </div>
+      </div>
+      <div class="col-3 text-center feature_hover py-5">
+        <div class="text-white mb-4">
+          <span class="material-icons h1-1 text-gradient-y">fmd_good</span>
+        </div>
+        <div class="text-white body1-1 mb-3">指定地點</div>
+        <div class="text-white body1-2">
+          <div class="">專業老師到你指定的地點</div>
+          <div class="">一對一高效學習</div>
+        </div>
       </div>
     </div>
   </div>
-</div>
+</section>
 
+<section class="bg-theme-1 py-9">
+  
+  <div class="text-center mb-5">
+    <div class="text-white h3-2 mb-3">預期上課流程</div>
+    <div class="line bg-primary mx-auto"></div>
+  </div>
 
-    <footer class="footer">
-      footer
+  <div class="container ">
+    <div class="row">
+      <div class="col-3 ">
+        <div class="position-relative border-rounded px-4 py-5">
+          <div class="position-absolute top-0 start-20 translate-middle text-primary h1-1 bg-theme-1 px-2 ">01</div>
+          <div class="text-white h4-1 mb-3">預約</div>
+          <div class="text-white body1-2">
+            <div class="">線上預約指定課程與老師</div>
+            <div class="">由老師安排專屬課程</div>
+          </div>
+        </div> 
+      </div>
+      <div class="col-3 ">
+        <div class="position-relative border-rounded px-4 py-5">
+          <div class="position-absolute top-0 start-20 translate-middle text-primary h1-1 bg-theme-1 px-2 ">02</div>
+          <div class="text-white h4-1 mb-3">付款</div>
+          <div class="text-white body1-2">
+            <div class="">支援各種支付方式</div>
+            <div class="">提供12期分期付款</div>
+          </div>
+        </div> 
+      </div>
+      <div class="col-3 ">
+        <div class="position-relative border-rounded px-4 py-5">
+          <div class="position-absolute top-0 start-20 translate-middle text-primary h1-1 bg-theme-1 px-2 ">03</div>
+          <div class="text-white h4-1 mb-3">上課</div>
+          <div class="text-white body1-2">
+            <div class="">地點由您指定</div>
+            <div class="">密集性一對一教學</div>
+          </div>
+        </div> 
+      </div>
+      <div class="col-3 ">
+        <div class="position-relative border-rounded px-4 py-5">
+          <div class="position-absolute top-0 start-20 translate-middle text-primary h1-1 bg-theme-1 px-2 ">04</div>
+          <div class="text-white h4-1 mb-3">提供滿意度</div>
+          <div class="text-white body1-2">
+            <div class="">提供課程滿意度及回饋</div>
+            <div class="">讓我們持續成長與進步</div>
+          </div>
+        </div> 
+      </div>
+    </div>
+  </div>
+
+</section>
+
+<section class="bg-theme-2 py-9">
+  <div class="text-center mb-5">
+    <div class="text-white h3-2 mb-3">你想要學習的程式，都在這裡</div>
+    <div class="line bg-primary mx-auto"></div>
+  </div>
+
+  <div class="px-4 text-white overflow d-flex">
+    <div class="d-inline-block body1-3 border border-white codeClass py-4 me-3">JavaScript</div>
+    <div class="d-inline-block body1-3 border border-white codeClass py-4 me-3">HTML/CSS</div>
+    <div class="d-inline-block body1-3 border border-white codeClass py-4 me-3">SQL</div>
+    <div class="d-inline-block body1-3 border border-white codeClass py-4 me-3">Java</div>
+    <div class="d-inline-block body1-3 border border-white codeClass py-4 me-3">SQL</div>
+    <div class="d-inline-block body1-3 border border-white codeClass py-4 me-3">Bash/Shell</div>
+    <div class="d-inline-block body1-3 border border-white codeClass py-4 me-3">Python</div>
+    <div class="d-inline-block body1-3 border border-white codeClass py-4 me-3">Python</div>
+    <div class="d-inline-block body1-3 border border-white codeClass py-4 me-3">PHP</div>
+    <div class="d-inline-block body1-3 border border-white codeClass py-4 me-3">C++</div>
+    <div class="d-inline-block body1-3 border border-white codeClass py-4">C++</div>
+  </div>
+</section>
+
+<section class="bg-theme-1 py-9">
+  <div class="text-center mb-5">
+    <div class="text-white h3-2 mb-3">熱門推薦課程</div>
+    <div class="line bg-primary mx-auto"></div>
+  </div>
+
+  <div class="container">
+    <ul class="row">
+      <li class="col-3 cardTeacher bg-theme-2 ">
+        <div class="pt-4 pb-4-1 px-4">
+          <img src="./assets/images/teacher01.jpg" alt="Belinda" class="teacherImg rounded-circle">
+          <div class="text-white body2-2">Belinda</div>
+          <div class="text-primary">基礎前端 - HTML</div>
+          <div class="text-white">前端語言</div>
+          <div class="text-white">
+            帶領無基礎的平民老百姓，從最基礎的 HTML 語法出發，使用最淺顯易懂的語言與生活隨處可見的例子...
+          </div>
+        </div>
+
+        <div class="d-flex text-white border-top border-white theme-5 py-3">
+          <div class="">50分鐘50分鐘50分鐘</div>
+          <div class="">NT$1600</div>
+        </div>
+        
+        
+      </li>
+      <li class=""></li>
+      <li class=""></li>
+      <li class=""></li>
+    </ul>
+  </div>
+  
+    
+  </div>
+</section>
+
+    <footer class="bg-theme-0 body2-3 text-AzeretMono text-theme-4">
+      <div class="container-fluid text-center py-sm-4 py-3">
+        Coding Home © 2022 All Rights Reserved
+      </div>
     </footer>
 
     <script src="./assets/js/vendors.js"></script>
