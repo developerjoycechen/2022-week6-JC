@@ -1,5 +1,66 @@
-.index__h1 {
-  color:#00cc99;
-  font-size: 20px;
-  font-weight: 400;
+.banner{
+  background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week6-202207/bg_home.jpg?raw=true") no-repeat;
+  background-position:center;
+	background-size:contain;
 }
+@include media-breakpoint-down(sm) {
+  .banner{
+    background: url("https://github.com/hexschool/2022-web-layout-training/blob/main/week6-202207/bg_home_mobile.jpg?raw=true") no-repeat;
+    background-position:center;
+    background-size:contain;
+  }
+}
+
+.square{
+  width: 10px;
+  height: 10px;
+  background-color: #fff;
+}
+
+// @mixin gradient-y($start-color: $primary, $end-color: $secondary, $start-percent: null, $end-percent: null) {
+//   background-image: linear-gradient(180deg, $start-color $start-percent, $end-color $end-percent);
+// }
+.gradient-y{
+  @include gradient-y;
+}
+.text-gradient-y{
+  @include gradient-y;
+  background-clip: text;
+  color: transparent;
+}
+
+.line{
+  height: 3px;
+  width: 50px;
+}
+
+.feature_hover:hover{
+  border: solid 1px $primary;
+  background-color: $theme-1;
+  border-radius: 12px;
+}
+
+.border-rounded{
+  border: 1px solid white;
+  border-radius: 12px;
+}
+
+.codeClass{
+  padding-left: 32px;
+  padding-right: 32px;
+  border-radius: 8px;
+}
+
+.overflow{
+  overflow:hidden;
+}
+
+.cardTeacher{
+  border-radius: 24px;
+}
+
+.teacherImg{
+  width: 100px;
+  height: 100px;
+}
+
