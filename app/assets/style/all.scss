@@ -1,14 +1,14 @@
-@import "./helpers/reset.scss";
-@import "../../../node_modules/bootstrap/scss/functions.scss";
+@import "./helpers/reset";
+@import "../../../node_modules/bootstrap/scss/functions";
 // @import "./helpers/variables";
 @import "../../../node_modules/bootstrap/scss/bootstrap.scss";
-@import "./helpers/variablesWeek6.scss";
+@import "./helpers/variablesWeek6";
 
 //mixin
 // @import "./mixin/hide-text";
-@import "./helpers/mixin.scss";
+@import './helpers/mixin';
 
 //main
-@import "./layout/base.scss";
-@import "./layout/layout.scss";
-@import "./layout/index.scss";
+@import './layout/base';
+@import './layout/layout';
+@import './layout/index';
